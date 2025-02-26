@@ -1,0 +1,12 @@
+node_modules
+
+/.cache
+/build
+.env
+
+dist/
+build/
+*.log
+.tailwindcss/
+.vscode/
+.idea/
