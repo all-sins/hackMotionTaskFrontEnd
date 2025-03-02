@@ -7,7 +7,7 @@ export default {
       fontFamily: {
         sans: ["IBM Plex Sans", "Space Grotesk"],
       },
-    },
+    }
   },
   plugins: [],
 } satisfies Config;

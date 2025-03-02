@@ -7,6 +7,7 @@ import {
 } from "@remix-run/react";
 import type { LinksFunction } from "@remix-run/node";
 import "./tailwind.css";
+import AnalyticsService from "./services/analytics";
 
 export const links: LinksFunction = () => [
   // { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -27,6 +28,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="author" content="all-sins"></meta>
         <Meta />
         <Links />
+        <AnalyticsService />
       </head>
       <body className="bg-[#E6E6E6] flex justify-center">
         {children}
